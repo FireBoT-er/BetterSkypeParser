@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35825.156
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BetterSkypeParser", "BetterSkypeParser\BetterSkypeParser.csproj", "{FE84FCC0-8E81-28B2-1BA6-58F54C129DEC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BetterSkypeParser.Android", "BetterSkypeParser.Android\BetterSkypeParser.Android.csproj", "{2CBDF247-2E46-0238-4CCF-A371E721AD72}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BetterSkypeParser.Browser", "BetterSkypeParser.Browser\BetterSkypeParser.Browser.csproj", "{CED85E65-35B0-718F-6AD0-D507964185FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BetterSkypeParser.Desktop", "BetterSkypeParser.Desktop\BetterSkypeParser.Desktop.csproj", "{DDB012BC-7193-EDA1-867F-E2D924CD8D84}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{36D591C7-65C7-A0D1-1CBC-10CDE441BDC8}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FE84FCC0-8E81-28B2-1BA6-58F54C129DEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE84FCC0-8E81-28B2-1BA6-58F54C129DEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE84FCC0-8E81-28B2-1BA6-58F54C129DEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE84FCC0-8E81-28B2-1BA6-58F54C129DEC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2CBDF247-2E46-0238-4CCF-A371E721AD72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CBDF247-2E46-0238-4CCF-A371E721AD72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CBDF247-2E46-0238-4CCF-A371E721AD72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CBDF247-2E46-0238-4CCF-A371E721AD72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CED85E65-35B0-718F-6AD0-D507964185FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CED85E65-35B0-718F-6AD0-D507964185FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CED85E65-35B0-718F-6AD0-D507964185FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CED85E65-35B0-718F-6AD0-D507964185FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDB012BC-7193-EDA1-867F-E2D924CD8D84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDB012BC-7193-EDA1-867F-E2D924CD8D84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDB012BC-7193-EDA1-867F-E2D924CD8D84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDB012BC-7193-EDA1-867F-E2D924CD8D84}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {198A7E24-9C35-4320-BC1F-37128AD7E003}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,330 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AboutConversation" xml:space="preserve">
+    <value>About Conversation</value>
+  </data>
+  <data name="AddMemberPlural" xml:space="preserve">
+    <value>have added</value>
+  </data>
+  <data name="AddMemberSingular" xml:space="preserve">
+    <value>has added</value>
+  </data>
+  <data name="AudioMessage" xml:space="preserve">
+    <value>Audio Message</value>
+  </data>
+  <data name="CallEnded" xml:space="preserve">
+    <value>Call ended</value>
+  </data>
+  <data name="CallStarted" xml:space="preserve">
+    <value>Call started</value>
+  </data>
+  <data name="Cast" xml:space="preserve">
+    <value>Cast</value>
+  </data>
+  <data name="CastAccusative" xml:space="preserve">
+    <value>cast</value>
+  </data>
+  <data name="ContactRequest" xml:space="preserve">
+    <value>Request to add to contacts</value>
+  </data>
+  <data name="Deleted" xml:space="preserve">
+    <value>(del.)</value>
+  </data>
+  <data name="DeleteMemberPlural" xml:space="preserve">
+    <value>have deleted</value>
+  </data>
+  <data name="DeleteMemberSingular" xml:space="preserve">
+    <value>has deleted</value>
+  </data>
+  <data name="DeleteYourselfPlural" xml:space="preserve">
+    <value>have left the</value>
+  </data>
+  <data name="DeleteYourselfSingular" xml:space="preserve">
+    <value>has left the</value>
+  </data>
+  <data name="Edited" xml:space="preserve">
+    <value>(edit.)</value>
+  </data>
+  <data name="Emoticon" xml:space="preserve">
+    <value>Emoticon</value>
+  </data>
+  <data name="ExportTimeFormat" xml:space="preserve">
+    <value>Export Time: {0}</value>
+  </data>
+  <data name="Extras" xml:space="preserve">
+    <value>Extras</value>
+  </data>
+  <data name="File" xml:space="preserve">
+    <value>File</value>
+  </data>
+  <data name="GIFNotLoaded" xml:space="preserve">
+    <value>The image is not loaded, check your internet connection</value>
+  </data>
+  <data name="GoToContact" xml:space="preserve">
+    <value>Go to contact</value>
+  </data>
+  <data name="HistoryDisclosedSingular" xml:space="preserve">
+    <value>has disclosed</value>
+  </data>
+  <data name="JSONFile" xml:space="preserve">
+    <value>JSON File</value>
+  </data>
+  <data name="Member" xml:space="preserve">
+    <value>member</value>
+  </data>
+  <data name="Members" xml:space="preserve">
+    <value>members</value>
+  </data>
+  <data name="MembersCountFormat" xml:space="preserve">
+    <value>Members: {0}</value>
+  </data>
+  <data name="MissedCall" xml:space="preserve">
+    <value>Missed call</value>
+  </data>
+  <data name="Moji" xml:space="preserve">
+    <value>Moji</value>
+  </data>
+  <data name="OpenFile" xml:space="preserve">
+    <value>Open File</value>
+  </data>
+  <data name="SentContact" xml:space="preserve">
+    <value>Sent contact</value>
+  </data>
+  <data name="Thread" xml:space="preserve">
+    <value>Thread</value>
+  </data>
+  <data name="ThreadAccusative" xml:space="preserve">
+    <value>thread</value>
+  </data>
+  <data name="You" xml:space="preserve">
+    <value>You</value>
+  </data>
+  <data name="YourIDFormat" xml:space="preserve">
+    <value>Your ID: {0}</value>
+  </data>
+  <data name="HistoryDisclosedPlural" xml:space="preserve">
+    <value>have disclosed</value>
+  </data>
+  <data name="HistoryHiddenSingular" xml:space="preserve">
+    <value>has hidden</value>
+  </data>
+  <data name="HistoryHiddenPlural" xml:space="preserve">
+    <value>have hidden</value>
+  </data>
+  <data name="MessageHistory" xml:space="preserve">
+    <value>the message history</value>
+  </data>
+  <data name="PhoneNumber" xml:space="preserve">
+    <value>phone number</value>
+  </data>
+  <data name="SystemAccount" xml:space="preserve">
+    <value>(system account)</value>
+  </data>
+  <data name="GuestAccount" xml:space="preserve">
+    <value>guest account</value>
+  </data>
+  <data name="AccountLinkedTo" xml:space="preserve">
+    <value>The account is linked to</value>
+  </data>
+  <data name="NoImageAvailable" xml:space="preserve">
+    <value>No Image Available</value>
+  </data>
+  <data name="Bits" xml:space="preserve">
+    <value>bit(s)</value>
+  </data>
+  <data name="Bytes" xml:space="preserve">
+    <value>byte(s)</value>
+  </data>
+  <data name="Kilobytes" xml:space="preserve">
+    <value>KB</value>
+  </data>
+  <data name="Megabytes" xml:space="preserve">
+    <value>MB</value>
+  </data>
+  <data name="Gigabytes" xml:space="preserve">
+    <value>GB</value>
+  </data>
+  <data name="Terabytes" xml:space="preserve">
+    <value>TB</value>
+  </data>
+  <data name="MessageTypeUnknown" xml:space="preserve">
+    <value>The message type is unknown</value>
+  </data>
+  <data name="TopicUpdateSingular" xml:space="preserve">
+    <value>has changed</value>
+  </data>
+  <data name="TopicUpdatePlural" xml:space="preserve">
+    <value>have changed</value>
+  </data>
+  <data name="TopicUpdateNameTo" xml:space="preserve">
+    <value>the name to</value>
+  </data>
+  <data name="RoleUpdateSingular" xml:space="preserve">
+    <value>has set</value>
+  </data>
+  <data name="RoleUpdatePlural" xml:space="preserve">
+    <value>have set</value>
+  </data>
+  <data name="RoleUpdateFormat" xml:space="preserve">
+    <value>the {0} role for</value>
+  </data>
+  <data name="UserRole" xml:space="preserve">
+    <value>user</value>
+  </data>
+  <data name="AdminRole" xml:space="preserve">
+    <value>admin</value>
+  </data>
+  <data name="JoiningEnabledSingular" xml:space="preserve">
+    <value>has allowed</value>
+  </data>
+  <data name="JoiningEnabledPlural" xml:space="preserve">
+    <value>have allowed</value>
+  </data>
+  <data name="JoiningDisabledSingular" xml:space="preserve">
+    <value>has banned</value>
+  </data>
+  <data name="JoiningDisabledPlural" xml:space="preserve">
+    <value>have banned</value>
+  </data>
+  <data name="Joining" xml:space="preserve">
+    <value>joining the</value>
+  </data>
+  <data name="CastDative" xml:space="preserve">
+    <value>cast</value>
+  </data>
+  <data name="ThreadDative" xml:space="preserve">
+    <value>thread</value>
+  </data>
+  <data name="ConversationsCountFormat" xml:space="preserve">
+    <value>Conversations: {0}</value>
+  </data>
+  <data name="MessagesCountFormat" xml:space="preserve">
+    <value>Messages: {0}</value>
+  </data>
+  <data name="FileTypeUnknown" xml:space="preserve">
+    <value>The file type is unknown</value>
+  </data>
+  <data name="UnknownGIFFile" xml:space="preserve">
+    <value>Unknown GIF file</value>
+  </data>
+  <data name="About" xml:space="preserve">
+    <value>About</value>
+  </data>
+</root>
